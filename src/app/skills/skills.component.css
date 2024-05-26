@@ -1,0 +1,64 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto 7em;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  width: 48%;
+  margin-bottom: 20px;
+}
+
+.skill-name {
+  flex: 1;
+  font-size: 16px;
+  color: #333;
+}
+
+.skill-bar {
+  flex: 2;
+  height: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  margin: 0 10px;
+  overflow: hidden;
+}
+
+.skill-percentage {
+  height: 100%;
+  background-color: #4caf50;
+  border-radius: 5px 0 0 5px;
+}
+
+.skill-value {
+  flex: 1;
+  font-size: 16px;
+  color: #333;
+  text-align: right;
+}

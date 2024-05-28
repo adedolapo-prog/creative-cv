@@ -1,0 +1,23 @@
+.container {
+  width: 80%;
+  margin: 0 auto 7em;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  margin: 10px;
+}
+
+.item img {
+  max-width: 100%;
+  height: auto;
+}

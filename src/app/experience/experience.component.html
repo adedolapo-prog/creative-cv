@@ -1,0 +1,15 @@
+<div class="overall">
+  <h2>Work Experience</h2>
+  <div *ngFor="let item of workExperience" class="container">
+    <div class="experience-container">
+      <div class="experience-left">
+        <p>{{ item.duration }}</p>
+        <h1 class="experience-company">{{ item.company }}</h1>
+      </div>
+      <div class="experience-right">
+        <h1 class="experience-role">{{ item.title }}</h1>
+        <p class="experience-description">{{ item.description }}</p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,64 @@
+.overall {
+  margin: 5em auto;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto 1em;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.experience-left {
+  background-color: #4caf50;
+  color: white;
+  padding: 65px 20px;
+  width: 30%;
+  text-align: center;
+}
+
+.experience-date {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.experience-company {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.experience-right {
+  background-color: white;
+  color: #333;
+  padding: 20px;
+  width: 70%;
+  text-align: left;
+}
+
+.experience-role {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 5px 0;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.experience-description {
+  font-size: 14px;
+  line-height: 1.6;
+}

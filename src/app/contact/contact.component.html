@@ -1,0 +1,40 @@
+<!-- src/app/contact/contact.component.html -->
+<section id="contact">
+  <div class="image">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form (ngSubmit)="onSubmit()" #contactForm="ngForm">
+        <div>
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            required
+            [(ngModel)]="model.name"
+            name="name"
+          />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            required
+            [(ngModel)]="model.email"
+            name="email"
+          />
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            required
+            [(ngModel)]="model.message"
+            name="message"
+          ></textarea>
+        </div>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+</section>
